@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Austria Hungary</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            background-image: url('images/battlefield.gif');
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: 100% 100%;
+            color: white; 
+        }
+        h1 {
+            background-color: orange;
+            font-family: broadway;
+            text-align: center;
+            color: black; 
+        }
+        .introduction {
+            background-color: yellow;
+            text-align: center;
+            color: black; 
+        }
+        .center-content {
+            text-align: center;
+        }
+        nav table {
+            background-color: white; 
+            padding: auto;
+            width: 100%;
+        }
+        nav table a {
+            color: purple; 
+            padding: 50px;
+            text-decoration: none;
+        }
+        nav table a.disabled {
+            color: grey;             
+            pointer-events: none;         
+        }
+        footer {
+            background-color: black;
+            color: white;
+            padding: 30px;
+            text-align: center;
+        }
+        .dropdown {
+            position: relative;
+            display: inline-block;
+        }
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #f9f9f9;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            z-index: 1;
+        }
+        .dropdown-content a {
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+            text-align: left;
+        }
+        .dropdown-content a:hover {
+            background-color: #f1f1f1;
+        }
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+    </style>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            document.getElementById('about-me').addEventListener('click', function (event) {
+                event.preventDefault(); // Prevent the default action
+            });
+
+            // Add an event listener to disable the "History passion" link
+            document.getElementById('history-passion').addEventListener('click', function (event) {
+                event.preventDefault(); // Prevent the default action
+            });
+        });
+    </script>
+</head>
+<body>
+<hr>
+<nav>
+    <table cellspacing="20" cellpadding="20">
+        <tr>
+            <td><a href="index.html">Home</a></td>
+            <td class="dropdown">
+                <a href="about.html" id="about-me" class="disabled">About me</a>
+                <div class="dropdown-content">
+                    <a href="profile.html">Profile</a>
+                    <a href="hobby.html">Hobby</a>
+                    <a href="hometown.html">Hometown</a>
+                </div>
+            </td>
+            <td class="dropdown">
+                <a href="history.html" id="history-passion" class="disabled">History passion</a>
+                <div class="dropdown-content">
+                    <a href="ottoman.html">Ottoman</a>
+                    <a href="german.html">German</a>
+		    <a href="austria.html">Austria Hungary</a>
+                </div>
+            </td>
+        </tr>
+    </table>
+</nav>
+<hr>
+<h1>Austria Hungary </h1>
+<p class="introduction">History of Austria Hungary Empire</p>
+<center><img src="images/austria.jpg" width="30%" height="20%" alt="Myself"></center>
+
+<ul>
+<p>Austria-Hungary, often referred to as the Austro-Hungarian Empire or the Dual Monarchy, was a multi-national constitutional monarchy in Central Europe between 1867 and 1918. A military and diplomatic alliance, it consisted of two sovereign states with a single monarch who was titled both emperor of Austria and King of Hungary. Austria-Hungary constituted the last phase in the constitutional evolution of the Habsburg monarchy: it was formed with the Austro-Hungarian Compromise of 1867 in the aftermath of the Austro-Prussian War and was dissolved shortly after Hungary terminated the union with Austria on 31 October 1918.
+
+<p>One of Europe's major powers at the time, Austria-Hungary was geographically the second-largest country in Europe, after the Russian Empire, at 621,538 km2 (239,977 sq mi) and the third-most populous (after Russia and the German Empire). The Empire built up the fourth-largest machine-building industry in the world, after the United States, Germany and the United Kingdom. Austria-Hungary also became the world's third-largest manufacturer and exporter of electric home appliances, electric industrial appliances, and power generation apparatus for power plants, after the United States and the German Empire, and it constructed Europe's second-largest railway network, after the German Empire.
+
+<p>With the exception of the territory of the Bosnian Condominium, the Empire of Austria and the Kingdom of Hungary were separate sovereign countries in international law. Thus separate representatives from Austria and Hungary signed peace treaties agreeing to territorial changes, for example the Treaty of Saint-Germain and the Treaty of Trianon. Citizenship and passports were also separate.
+
+<p>At its core was the dual monarchy, which was a real union between Cisleithania, the northern and western parts of the former Austrian Empire, and Transleithania (Kingdom of Hungary). Following the 1867 reforms, the Austrian and Hungarian states were co-equal in power. The two countries conducted unified diplomatic and defence policies. For these purposes, "common" ministries of foreign affairs and defence were maintained under the monarch's direct authority, as was a third finance ministry responsible only for financing the two "common" portfolios. A third component of the union was the Kingdom of Croatia-Slavonia, an autonomous region under the Hungarian crown, which negotiated the Croatian–Hungarian Settlement in 1868. After 1878, Bosnia and Herzegovina came under Austro-Hungarian joint military and civilian rule until it was fully annexed in 1908, provoking the Bosnian crisis.
+
+<p>Austria-Hungary was one of the Central Powers in World War I, which began with an Austro-Hungarian war declaration on the Kingdom of Serbia on 28 July 1914. It was already effectively dissolved by the time the military authorities signed the armistice of Villa Giusti on 3 November 1918. The Kingdom of Hungary and the First Austrian Republic were treated as its successors de jure, whereas the independence of the First Czechoslovak Republic, the Second Polish Republic, and the Kingdom of Yugoslavia, respectively, and most of the territorial demands of the Kingdom of Romania and the Kingdom of Italy were also recognized by the victorious powers in 1920</p>
+
+    <center>
+        <video width="1000" height="500" controls>
+            <source src="videos/austriahungary.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </center>
+
+</ul>
+<hr>
+<footer>
+    <center>
+        <a href="https://www.instagram.com/kaizerlische/">
+            <img src="images/instagram.png" width="5%" height="5%" alt="Instagram">
+        </a>
+        <a href="https://www.tiktok.com/@kaizer_wilhelm2">
+            <img src="images/tiktok.png" width="5%" height="5%" alt="TikTok">
+        </a>
+        <a href="https://www.facebook.com/profile.php?id=100010322942301">
+            <img src="images/Facebook.png" width="10%" height="10%" alt="Facebook">
+        </a>
+        <br/>
+        Copyright &copy; Irfan Mustaqim 2024
+    </center>
+</footer>
+</body>
+</html>

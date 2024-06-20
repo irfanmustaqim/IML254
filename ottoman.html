@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Ottoman</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            background-image: url('images/ottoman.png');
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: 100% 100%;
+            color: white; 
+        }
+        h1 {
+            background-color: orange;
+            font-family: broadway;
+            text-align: center;
+            color: black; 
+        }
+        .introduction {
+            background-color: yellow;
+            text-align: center;
+            color: black; 
+        }
+        .center-content {
+            text-align: center;
+        }
+        nav table {
+            background-color: white; 
+            padding: auto;
+            width: 100%;
+        }
+        nav table a {
+            color: purple; 
+            padding: 50px;
+            text-decoration: none;
+        }
+        nav table a.disabled {
+            color: grey;             
+            pointer-events: none;         
+        }
+        footer {
+            background-color: black;
+            color: white;
+            padding: 30px;
+            text-align: center;
+        }
+        .dropdown {
+            position: relative;
+            display: inline-block;
+        }
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #f9f9f9;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            z-index: 1;
+        }
+        .dropdown-content a {
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+            text-align: left;
+        }
+        .dropdown-content a:hover {
+            background-color: #f1f1f1;
+        }
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+    </style>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            document.getElementById('about-me').addEventListener('click', function (event) {
+                event.preventDefault(); // Prevent the default action
+            });
+
+            // Add an event listener to disable the "History passion" link
+            document.getElementById('history-passion').addEventListener('click', function (event) {
+                event.preventDefault(); // Prevent the default action
+            });
+        });
+    </script>
+</head>
+<body>
+<hr>
+<nav>
+    <table cellspacing="20" cellpadding="20">
+        <tr>
+            <td><a href="index.html">Home</a></td>
+            <td class="dropdown">
+                <a href="about.html" id="about-me" class="disabled">About me</a>
+                <div class="dropdown-content">
+                    <a href="profile.html">Profile</a>
+                    <a href="hobby.html">Hobby</a>
+                    <a href="hometown.html">Hometown</a>
+                </div>
+            </td>
+            <td class="dropdown">
+                <a href="history.html" id="history-passion" class="disabled">History passion</a>
+                <div class="dropdown-content">
+                    <a href="ottoman.html">Ottoman</a>
+                    <a href="german.html">German</a>
+  		    <a href="austria.html">Austria Hungary</a>
+                </div>
+            </td>
+        </tr>
+    </table>
+</nav>
+<hr>
+<h1>History of Ottoman Empire</h1>
+<p class="introduction">History</p>
+<center><img src="images/ottoman.png" width="50%" height="20%" alt="Myself"></center>
+
+<ul>
+    <p>The Ottoman Empire,historically and colloquially known as the Turkish Empire, was an imperial realm that spanned much of Southeast Europe, West Asia, and North Africa from the 14th to early 20th centuries; it also controlled parts of southeastern Central Europe, between the early 16th and early 18th centuries.
+
+<p>The empire emerged from a beylik, or principality, founded in northwestern Anatolia in 1299 by the Turkoman tribal leader Osman I. His successors conquered much of Anatolia and expanded into the Balkans by the mid 14th century, transforming their petty kingdom into a transcontinental empire. The Ottomans ended the Byzantine Empire with the conquest of Constantinople in 1453 by Mehmed II, which marked the Ottomans' emergence as a major regional power. Under Suleiman the Magnificent (1520–1566), the empire reached the peak of its power, prosperity, and political development. By the start of the 17th century, the Ottomans presided over 32 provinces and numerous vassal states, which over time were either absorbed into the Empire or granted various degrees of autonomy. With its capital at Constantinople (modern-day Istanbul) and control over a significant portion of the Mediterranean Basin, the Ottoman Empire was at the centre of interactions between the Middle East and Europe for six centuries.
+
+<p>While the Ottoman Empire was once thought to have entered a period of decline after the death of Suleiman the Magnificent, modern academic consensus posits that the empire continued to maintain a flexible and strong economy, society and military into much of the 18th century. However, during a long period of peace from 1740 to 1768, the Ottoman military system fell behind those of its chief European rivals, the Habsburg and Russian Empires. The Ottomans consequently suffered severe military defeats in the late 18th and early 19th centuries, culminating in the loss of both territory and global prestige. This prompted a comprehensive process of reform and modernization known as the Tanzimat; over the course of the 19th century, the Ottoman state became vastly more powerful and organized internally, despite suffering further territorial losses, especially in the Balkans, where a number of new states emerged.
+
+<p>Beginning in the late 19th century, various Ottoman intellectuals sought to further liberalize society and politics along European lines, culminating in the Young Turk Revolution of 1908 led by the Committee of Union and Progress (CUP), which established the Second Constitutional Era and introduced competitive multi-party elections under a constitutional monarchy. However, following the disastrous Balkan Wars, the CUP became increasingly radicalized and nationalistic, leading a coup d'état in 1913 that established a one-party regime. The CUP allied the empire with Germany, hoping to escape from the diplomatic isolation that had contributed to its recent territorial losses; it thus joined World War I on the side of the Central Powers. While the empire was able to largely hold its own during the conflict, it struggled with internal dissent, especially the Arab Revolt. During this period, the Ottoman government engaged in genocide against Armenians, Assyrians, and Greeks.
+
+<p>In the aftermath of World War I, the victorious Allied Powers occupied and partitioned the Ottoman Empire, which lost its southern territories to the United Kingdom and France. The successful Turkish War of Independence, led by Mustafa Kemal Atatürk against the occupying Allies, led to the emergence of the Republic of Turkey in the Anatolian heartland and the abolition of the Ottoman monarchy in 1922, formally ending the Ottoman Empire.
+    <center>
+        <video width="1000" height="500" controls>
+            <source src="videos/ceddin.mp4" type="video/mp4">
+        </video>
+    </center>
+
+</ul>
+<hr>
+<footer>
+    <center>
+        <a href="https://www.instagram.com/kaizerlische/">
+            <img src="images/instagram.png" width="5%" height="5%" alt="Instagram">
+        </a>
+        <a href="https://www.tiktok.com/@kaizer_wilhelm2">
+            <img src="images/tiktok.png" width="5%" height="5%" alt="TikTok">
+        </a>
+        <a href="https://www.facebook.com/profile.php?id=100010322942301">
+            <img src="images/Facebook.png" width="10%" height="10%" alt="Facebook">
+        </a>
+        <br/>
+        Copyright &copy; Irfan Mustaqim 2024
+    </center>
+</footer>
+</body>
+</html>

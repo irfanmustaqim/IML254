@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>My Personal Website</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+
+        nav {
+            margin: 20px 0;
+        }
+        table {
+            width: 100%;
+        }
+        td {
+            text-align: center;
+            position: relative;
+        }
+        .dropdown {
+            display: inline-block;
+        }
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #f9f9f9;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            z-index: 1;
+        }
+        .dropdown-content a {
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+            text-align: left;
+        }
+        .dropdown-content a:hover {
+            background-color: #f1f1f1;
+        }
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+        .disabled {
+            color: grey; /* Set the color for the disabled link */
+            pointer-events: none; /* Disable pointer events for the link */
+        }
+        footer {
+            text-align: center;
+            padding: 10px 0;
+        }
+        footer img {
+            margin: 0 10px;
+        }
+    </style>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            document.getElementById('about-me').addEventListener('click', function (event) {
+                event.preventDefault(); // Prevent the default action
+            });
+            document.getElementById('history-passion').addEventListener('click', function (event) {
+                event.preventDefault(); // Prevent the default action
+            });
+        });
+    </script>
+</head>
+<body>
+<hr>
+<nav>
+    <table cellspacing="20" cellpadding="20">
+        <tr>
+            <td><a href="index.html">Home</a></td>
+            <td class="dropdown">
+                <a href="about.html" id="about-me" class="disabled">About me</a>
+                <div class="dropdown-content">
+                    <a href="profile.html">Profile</a>
+                    <a href="hobby.html">Hobby</a>
+                    <a href="hometown.html">Hometown</a>
+                </div>
+            </td>
+            <td class="dropdown">
+                <a href="history.html" id="history-passion" class="disabled">History Passion</a>
+                <div class="dropdown-content">
+                    <a href="ottoman.html">Ottoman</a>
+                    <a href="german.html">German</a>
+		    <a href="austria.html">Austria Hungary</a>
+                </div>
+            </td>
+        </tr>
+    </table>
+</nav>
+<hr>
+<h2 style="color:red; text-align: center; font-weight: bold;">WELCOME TO MY WEBSITE! I'M IRFAN!</h2>
+<p>
+    Myself-I'm making this website to introduce about myself. With this, you will get to know about me and what I like to do to know more deeply. In addition, I also created this website to provide information about the history that I am interested in to all of you, namely the history of the Ottoman Empire and the German Empire as well as a little information about where I live.
+</p>
+<center>
+    <a href="index.html">
+        <img src="images/hello.gif" width="20%" height="20%" alt="Hello">
+    </a>
+</center>
+<hr>
+<footer>
+    <a href="https://www.instagram.com/kaizerlische/">
+        <img src="images/instagram.png" width="5%" height="5%" alt="Instagram">
+    </a>
+    <a href="https://www.tiktok.com/@kaizer_wilhelm2">
+        <img src="images/tiktok.png" width="5%" height="5%" alt="TikTok">
+    </a>
+    <a href="https://www.facebook.com/profile.php?id=100010322942301">
+        <img src="images/Facebook.png" width="10%" height="10%" alt="Facebook">
+    </a>
+    <br/>
+    Copyright &copy; Irfan Mustaqim 2024
+</footer>
+</body>
+</html>

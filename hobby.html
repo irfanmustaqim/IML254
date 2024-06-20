@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Hobby</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            background-image: url('images/battlefield.gif');
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: 100% 100%;
+            color: white; 
+        }
+        h1 {
+            background-color: orange;
+            font-family: broadway;
+            text-align: center;
+            color: black; 
+        }
+        .introduction {
+            background-color: yellow;
+            text-align: center;
+            color: black; 
+        }
+        .center-content {
+            text-align: center;
+        }
+        nav table {
+            background-color: white; 
+            padding: auto;
+            width: 100%;
+        }
+        nav table a {
+            color: purple; 
+            padding: 50px;
+            text-decoration: none;
+        }
+        .disabled {
+            color: grey; /* Set the color for the disabled link */
+            pointer-events: none; /* Disable pointer events for the link */
+        }
+        footer {
+            background-color: black;
+            color: white;
+            padding: 30px;
+            text-align: center;
+        }
+        .dropdown {
+            position: relative;
+            display: inline-block;
+        }
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: white;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            z-index: 1;
+        }
+        .dropdown-content a {
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+            text-align: left;
+        }
+        .dropdown-content a:hover {
+            background-color: #f1f1f1;
+        }
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+    </style>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            document.getElementById('about-me').addEventListener('click', function (event) {
+                event.preventDefault(); // Prevent the default action
+            });
+
+            document.getElementById('history-passion').addEventListener('click', function (event) {
+                event.preventDefault(); // Prevent the default action
+            });
+        });
+    </script>
+</head>
+<body>
+<hr>
+<nav>
+    <table cellspacing="20" cellpadding="20">
+        <tr>
+            <td><a href="index.html">Home</a></td>
+            <td class="dropdown">
+                <a href="about.html" id="about-me" class="disabled">About me</a>
+                <div class="dropdown-content">
+                    <a href="profile.html">Profile</a>
+                    <a href="hobby.html">Hobby</a>
+                    <a href="hometown.html">Hometown</a>
+                </div>
+            </td>
+            <td class="dropdown">
+                <a href="history.html" id="history-passion" class="disabled">History passion</a>
+                <div class="dropdown-content">
+                    <a href="ottoman.html">Ottoman</a>
+                    <a href="german.html">German</a>
+		    <a href="austria.html">Austria Hungary</a>
+                </div>
+            </td>
+        </tr>
+    </table>
+</nav>
+
+<center><img src="images/archery.jpg" width="20%" height="20%" alt="Myself"></center>
+<h1>Archery</h1>
+<p class="introduction">Introduction to my hobby</p>
+
+<ul>
+    <li>Peace be upon you,</li>
+
+    <p>My name is Irfan and my hobby is archery. Here I will tell you how I got involved in the sport of traditional archery and my excitement for this sport so much that I made it my daily hobby during my spare time.</p>
+
+    <p>I became interested in traditional archery as early as the age of 14 in my place called Kg Tempoyang, Kuala Lipis, Pahang. Currently, the mosque in the area where I sit has opened an archery club called Kelab Memanah Masjid Saiyidina Ali Kg Tempoyang. I started joining and registered as a member of the club at the same age. I joined at the invitation of my friend who told me to join him in the archery club. Currently I am a bit clumsy to archery using the bow and arrows provided by the mosque but after a few months of practicing with a skilled teacher, I started to get used to it until I was able to participate in the archery competition organized by the archery club in another village mosque.</p>
+
+    <p>I started participating in my first competition at the age of 15 during the year 2019 at Kg Relong Mosque. At that time I played with only 6 arrows. I play with a mosque bow which is a bit clumsy to use for beginners but I'm used to it. The distance I played in this competition was 18 meters. The result was that I got the fifth place out of 20 participants and got a bronze medal in this competition.</p>
+
+    <center><img src="images/trad1.jpg" width="20%" height="20%" alt="Myself"></center>
+
+    <p>My second competition was for the same age which is 15 years old in August 2019. This time the competition was organized by my own village mosque and I had registered in the under 15 category. Fortunately in this competition the bow and arrow used the property of my village mosque. I performed well in the competition with 6 arrows. The final result is that I have won first place among 15 contestants. From this victory my grandfather gifted me with a new bow and arrow for myself.</p>
+
+    <center><img src="images/trad2.jpg" width="20%" height="20%" alt="Myself"></center>
+
+    <p>In conclusion, there are many more archery competitions that I have participated in, but I have forgotten all of them and lack photos when I participated to be used as proof. I am very happy to be able to participate in the competition that I participated in because I can get some knowledge from skilled archers and it can improve my skills in archery. I also really love this sport of archery because it is the sunnah of the Prophet Muhammad SAW. I hope to maintain my momentum in playing this sport.</p>
+</ul>
+<hr>
+<footer>
+    <center>Copyright &copy; Irfan Mustaqim 2024</center>
+</footer>
+</body>
+</html>
